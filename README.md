@@ -110,10 +110,32 @@ DROP COLUMN row_num;
 ```
 #### Exploratory Data Analysis
 - By country
+
+Least layoffs by country
+
+![Bottom 10 by country](https://github.com/user-attachments/assets/5223b6c2-33fc-426f-a566-407879efa581)
+Highest layoffs by country
+
+![Top layoffs by country](https://github.com/user-attachments/assets/e33fdf71-24ef-4c91-86a5-b7a4cea35792)
+
 - By Company
-- By Industry
-- By total_laid off
-- By year and by month
+
+![Top ten companies with high layoffs](https://github.com/user-attachments/assets/c6560b60-b86f-4702-b493-cad45dca3fec)
+
+- By year
+
+  ![Layoffs by year](https://github.com/user-attachments/assets/ab2be937-178c-4a42-b2a7-61a0ccd432fc)
+
+- By year and country
+![By country,by year](https://github.com/user-attachments/assets/6b0c0bcf-fc8b-458c-a19a-f6320cfb3c27)
+
+- By year and industry
+
+![Top 5 by indusrty by year ](https://github.com/user-attachments/assets/91624252-dd45-4a2d-be3e-3af408709c65)
+
+- By development stage
+
+ ![By stage](https://github.com/user-attachments/assets/cee7c199-ab57-4edc-810d-1a4dbf349050)
 
 ### CONCLUSION
 
