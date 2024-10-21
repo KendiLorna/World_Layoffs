@@ -46,16 +46,68 @@ FROM layoffs_staging;
 SELECT * 
 FROM layoffs_staging2
 WHERE row_num>1;
-``
+
 -- Delete duplicates only 2
 DELETE 
 FROM layoffs_staging2
 WHERE row_num>1;
 ```
 - Standardize the data
-- Remove/replace null or blank values
-- Remove unnecessary rows/columns
+```
+-- Data from 59 countries
+SELECT DISTINCT country
+FROM layoffs_staging2
+ORDER BY 1;
 
+UPDATE layoffs_staging2
+SET country = "United Arab Emirates"
+WHERE country = 'UAE';
+
+--Check if all companies are properly classified
+SELECT company, industry
+FROM layoffs_staging2;
+
+-- Updated the table to reflect changes
+UPDATE layoffs_staging2
+SET industry = "Data"
+WHERE company ="Appsmith" ;
+
+UPDATE layoffs_staging2
+SET industry = "Retail"
+WHERE industry LIKE 'https%';
+
+-- Convert string to date format in the date column
+SELECT `date`,
+str_to_date(`date`,'%d/%m/%Y')
+FROM layoffs_staging2;
+
+-- Update table to reflect changes
+UPDATE layoffs_staging2
+SET `date`= str_to_date(`date`,'%d/%m/%Y');
+
+-- Change the column from text to date data type
+ALTER TABLE layoffs_staging2
+MODIFY COLUMN `date` DATE;
+
+```
+- Remove/replace null or blank values
+```--626 blank rows
+SELECT * 
+FROM layoffs_staging2
+WHERE total_laid_off =""
+AND percentage_laid_off="";
+
+-- Deleted 626 rows that didn't have data in the columns of interest
+DELETE
+FROM layoffs_staging2
+WHERE total_laid_off =""
+AND percentage_laid_off="";
+````
+- Remove unnecessary rows/columns
+```
+ALTER TABLE layoffs_staging2
+DROP COLUMN row_num;
+```
 #### Exploratory Data Analysis
 - By country
 - By Company
