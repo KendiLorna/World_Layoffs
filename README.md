@@ -15,7 +15,7 @@ Kaggle datasets  [Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 
 ### TOOLS
 
-MySQL
+MySQL and Microsoft Power BI
 
 ### METHODOLOGY
 
@@ -127,7 +127,7 @@ Highest layoffs by country
   ![Layoffs by year](https://github.com/user-attachments/assets/ab2be937-178c-4a42-b2a7-61a0ccd432fc)
 
 - By year and country
-![By country,by year](https://github.com/user-attachments/assets/6b0c0bcf-fc8b-458c-a19a-f6320cfb3c27)
+![By country, by year](https://github.com/user-attachments/assets/6b0c0bcf-fc8b-458c-a19a-f6320cfb3c27)
 
 - By year and industry
 
@@ -137,10 +137,14 @@ Highest layoffs by country
 
  ![By stage](https://github.com/user-attachments/assets/cee7c199-ab57-4edc-810d-1a4dbf349050)
 
+Data visualisation
+
+![Power BI visuals](https://github.com/user-attachments/assets/f168884d-3261-4d7e-8328-9915429e50a5)
+
 ### CONCLUSION
 
-The data is running from March 2020 to October 2024 therefore current.
-From the data available and during that period there have been 282 companies that have laid off 100% of their workforce.
+The data runs from March 2020 to October 2024 and is therefore current.
+According to the available data, during that period, 282 companies laid off 100% of their workforce.
 The USA is tops
 The total laid off from the data up to Oct 2024 is 666,436.
 
