@@ -141,6 +141,8 @@ Data visualisation
 
 ![Power BI visuals](https://github.com/user-attachments/assets/f168884d-3261-4d7e-8328-9915429e50a5)
 
+[Link to interactive Power BI video](https://youtu.be/aARMfmcHkic)
+
 ### CONCLUSION
 
 The data runs from March 2020 to October 2024 and is therefore current.
