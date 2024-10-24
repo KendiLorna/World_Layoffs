@@ -1,13 +1,13 @@
 ## World_layoffs
 ### INTRODUCTION
 
-The dataset used is on world layoffs obtained from Kaggle. It records layoffs around the world from March 2020 to October 2024. The file contained a table with seven columns: company, location, industry, total_laid_off, percentage_laid_off, date, stage, country, and funds_raised.
-.
+The dataset used is on world layoffs obtained from Kaggle. It records layoffs from 59 countries dating from March 2020 to October 2024. The file contained a table with seven columns: company, location, industry, total_laid_off, percentage_laid_off, date, stage, country, and funds_raised.
+
 
 ### OBJECTIVE
 
-To explore the trend of layoffs from 2020-2024 by industry, company, country, and stage of development.
-This is important to show which industries are growing and vice versa and with more data such as hiring trends and specific redundant roles, can be used to inform career choices and which emerging skills and industries to invest in and which to avoid.
+To explore the trend of layoffs from 2020-2024 by industry, company, country, year, and stage of development.
+This shows which industries are growing and vice versa. In conjunction with more data, such as hiring trends and specific redundant roles, it can inform career choices, which emerging skills and industries to invest in, and which to be wary of.
 
 ### DATA SOURCE
 
